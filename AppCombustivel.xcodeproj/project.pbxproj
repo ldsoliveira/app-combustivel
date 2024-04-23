@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B7C84BD10FA415CE4F08887 /* Pods_AppCombustivel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFD1B12D3D6E6E7234F388E /* Pods_AppCombustivel.framework */; };
 		CB6C76AA2BD7F7350019565B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76A92BD7F7350019565B /* AppDelegate.swift */; };
 		CB6C76AC2BD7F7350019565B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76AB2BD7F7350019565B /* SceneDelegate.swift */; };
-		CB6C76AE2BD7F7350019565B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76AD2BD7F7350019565B /* ViewController.swift */; };
-		CB6C76B12BD7F7350019565B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6C76AF2BD7F7350019565B /* Main.storyboard */; };
+		CB6C76AE2BD7F7350019565B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76AD2BD7F7350019565B /* HomeVC.swift */; };
 		CB6C76B32BD7F7370019565B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6C76B22BD7F7370019565B /* Assets.xcassets */; };
 		CB6C76B62BD7F7370019565B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6C76B42BD7F7370019565B /* LaunchScreen.storyboard */; };
+		CB6C76C02BD7F9D60019565B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76BF2BD7F9D60019565B /* HomeScreen.swift */; };
+		CB6C76C32BD7FFFE0019565B /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76C22BD7FFFE0019565B /* CalculatorVC.swift */; };
+		CB6C76C62BD800610019565B /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76C52BD800610019565B /* CalculatorScreen.swift */; };
+		CB6C76C92BD808F30019565B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76C82BD808F30019565B /* Alert.swift */; };
+		CB6C76CC2BD823920019565B /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76CB2BD823920019565B /* ResultVC.swift */; };
+		CB6C76CF2BD823BB0019565B /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76CE2BD823BB0019565B /* ResultScreen.swift */; };
+		CB6C76D22BD82BC80019565B /* UITextField + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76D12BD82BC80019565B /* UITextField + Extension.swift */; };
+		CB6C76D42BD82D420019565B /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6C76D32BD82D420019565B /* UIViewController + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BFD1B12D3D6E6E7234F388E /* Pods_AppCombustivel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppCombustivel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB5C96F6B5C7E3B8FA93A3E /* Pods-AppCombustivel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCombustivel.release.xcconfig"; path = "Target Support Files/Pods-AppCombustivel/Pods-AppCombustivel.release.xcconfig"; sourceTree = "<group>"; };
+		8A853BDF3C36D341FB39FA11 /* Pods-AppCombustivel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCombustivel.debug.xcconfig"; path = "Target Support Files/Pods-AppCombustivel/Pods-AppCombustivel.debug.xcconfig"; sourceTree = "<group>"; };
 		CB6C76A62BD7F7350019565B /* AppCombustivel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCombustivel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6C76A92BD7F7350019565B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6C76AB2BD7F7350019565B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB6C76AD2BD7F7350019565B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB6C76B02BD7F7350019565B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB6C76AD2BD7F7350019565B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		CB6C76B22BD7F7370019565B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6C76B52BD7F7370019565B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6C76B72BD7F7370019565B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6C76BF2BD7F9D60019565B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		CB6C76C22BD7FFFE0019565B /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
+		CB6C76C52BD800610019565B /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
+		CB6C76C82BD808F30019565B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		CB6C76CB2BD823920019565B /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		CB6C76CE2BD823BB0019565B /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		CB6C76D12BD82BC80019565B /* UITextField + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extension.swift"; sourceTree = "<group>"; };
+		CB6C76D32BD82D420019565B /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7C84BD10FA415CE4F08887 /* Pods_AppCombustivel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29C0ABA9A0336CDDA826417C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BFD1B12D3D6E6E7234F388E /* Pods_AppCombustivel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CF7F4F60B4D0BACD06A9141 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A853BDF3C36D341FB39FA11 /* Pods-AppCombustivel.debug.xcconfig */,
+				7CB5C96F6B5C7E3B8FA93A3E /* Pods-AppCombustivel.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB6C769D2BD7F7350019565B = {
 			isa = PBXGroup;
 			children = (
 				CB6C76A82BD7F7350019565B /* AppCombustivel */,
 				CB6C76A72BD7F7350019565B /* Products */,
+				8CF7F4F60B4D0BACD06A9141 /* Pods */,
+				29C0ABA9A0336CDDA826417C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,86 @@
 		CB6C76A82BD7F7350019565B /* AppCombustivel */ = {
 			isa = PBXGroup;
 			children = (
+				CB6C76D02BD82B980019565B /* Extension */,
+				CB6C76CA2BD8237F0019565B /* Result */,
+				CB6C76C72BD808D60019565B /* Alert */,
+				CB6C76C12BD7FFE70019565B /* Calculator */,
+				CB6C76BD2BD7F9910019565B /* Home */,
 				CB6C76A92BD7F7350019565B /* AppDelegate.swift */,
 				CB6C76AB2BD7F7350019565B /* SceneDelegate.swift */,
-				CB6C76AD2BD7F7350019565B /* ViewController.swift */,
-				CB6C76AF2BD7F7350019565B /* Main.storyboard */,
 				CB6C76B22BD7F7370019565B /* Assets.xcassets */,
 				CB6C76B42BD7F7370019565B /* LaunchScreen.storyboard */,
 				CB6C76B72BD7F7370019565B /* Info.plist */,
 			);
 			path = AppCombustivel;
+			sourceTree = "<group>";
+		};
+		CB6C76BD2BD7F9910019565B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C76BE2BD7F9B60019565B /* Screen */,
+				CB6C76AD2BD7F7350019565B /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB6C76BE2BD7F9B60019565B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C76BF2BD7F9D60019565B /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		CB6C76C12BD7FFE70019565B /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C76C42BD800410019565B /* Screen */,
+				CB6C76C22BD7FFFE0019565B /* CalculatorVC.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		CB6C76C42BD800410019565B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C76C52BD800610019565B /* CalculatorScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		CB6C76C72BD808D60019565B /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C76C82BD808F30019565B /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		CB6C76CA2BD8237F0019565B /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C76CD2BD8239F0019565B /* Screen */,
+				CB6C76CB2BD823920019565B /* ResultVC.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		CB6C76CD2BD8239F0019565B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C76CE2BD823BB0019565B /* ResultScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		CB6C76D02BD82B980019565B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB6C76D12BD82BC80019565B /* UITextField + Extension.swift */,
+				CB6C76D32BD82D420019565B /* UIViewController + Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6C76BA2BD7F7370019565B /* Build configuration list for PBXNativeTarget "AppCombustivel" */;
 			buildPhases = (
+				712D64BDB04050DEA2B26485 /* [CP] Check Pods Manifest.lock */,
 				CB6C76A22BD7F7350019565B /* Sources */,
 				CB6C76A32BD7F7350019565B /* Frameworks */,
 				CB6C76A42BD7F7350019565B /* Resources */,
+				E01F984C4011F9A950975DF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +239,75 @@
 			files = (
 				CB6C76B62BD7F7370019565B /* LaunchScreen.storyboard in Resources */,
 				CB6C76B32BD7F7370019565B /* Assets.xcassets in Resources */,
-				CB6C76B12BD7F7350019565B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		712D64BDB04050DEA2B26485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppCombustivel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01F984C4011F9A950975DF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppCombustivel/Pods-AppCombustivel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppCombustivel/Pods-AppCombustivel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppCombustivel/Pods-AppCombustivel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB6C76A22BD7F7350019565B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6C76AE2BD7F7350019565B /* ViewController.swift in Sources */,
+				CB6C76D42BD82D420019565B /* UIViewController + Extension.swift in Sources */,
+				CB6C76C32BD7FFFE0019565B /* CalculatorVC.swift in Sources */,
+				CB6C76D22BD82BC80019565B /* UITextField + Extension.swift in Sources */,
+				CB6C76CC2BD823920019565B /* ResultVC.swift in Sources */,
+				CB6C76C02BD7F9D60019565B /* HomeScreen.swift in Sources */,
+				CB6C76AE2BD7F7350019565B /* HomeVC.swift in Sources */,
+				CB6C76CF2BD823BB0019565B /* ResultScreen.swift in Sources */,
 				CB6C76AA2BD7F7350019565B /* AppDelegate.swift in Sources */,
 				CB6C76AC2BD7F7350019565B /* SceneDelegate.swift in Sources */,
+				CB6C76C62BD800610019565B /* CalculatorScreen.swift in Sources */,
+				CB6C76C92BD808F30019565B /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB6C76AF2BD7F7350019565B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB6C76B02BD7F7350019565B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB6C76B42BD7F7370019565B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +435,7 @@
 		};
 		CB6C76BB2BD7F7370019565B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A853BDF3C36D341FB39FA11 /* Pods-AppCombustivel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +445,7 @@
 				INFOPLIST_FILE = AppCombustivel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,14 +455,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = backfront.AppCombustivel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CB6C76BC2BD7F7370019565B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB5C96F6B5C7E3B8FA93A3E /* Pods-AppCombustivel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +476,7 @@
 				INFOPLIST_FILE = AppCombustivel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,9 +486,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = backfront.AppCombustivel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
